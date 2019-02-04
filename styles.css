@@ -1,32 +1,194 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+header{
+  background-color: #32415e;
+  color: #ffffff;
+}
+.admin-area {
+  text-align: right;
+  padding: 10px;
+}
+.user-icon {
+  width: 15px;
+  height: 15px;
+  margin: 0 8px;
+}
+ul{
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+li{
+  display: inline;
+}
+
+.cat-icon {
+  height: 15px;
+  margin: 0 8px;
+}
+
+.list-icon {
+  height: 13px;
+  margin: 0 8px;
+}
+
+.paw-icon {
+  height: 13px;
+  margin: 0;
+  margin-left: 8px;
+}
+.image-number {
+  margin: 0;
+  color: #ffffff;
+  text-align: right;
+  display:inline-block;
+}
 .box {
+  align-content: space-around;
+  align-items: flex-start;
+  border: 10px solid black;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 90%;
+}
+.arrow-icon{
+  height: 40px;
 }
 .one {
-  flex: 1;
-  box-sizing: border-box;
   border: black solid 1px;
-  width: 25%;
+  box-sizing: border-box;
+  flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
+}
+div.photo-one {
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
 }
 .two {
+  border: black solid 1px;
+  box-sizing: border-box;
   flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
+}
+div.photo-two{
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
 }
 .three {
+  border: black solid 1px;
+  box-sizing: border-box;
   flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
+}
+div.photo-three{
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
 }
 .four {
+  border: black solid 1px;
+  box-sizing: border-box;
   flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
 }
+
+div.photo-four{
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
+}
+
 .five {
+  border: black solid 1px;
+  box-sizing: border-box;
   flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
 }
+
+div.photo-five{
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
+}
+
 .six {
+  border: black solid 1px;
+  box-sizing: border-box;
   flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
 }
+
+div.photo-six{
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
+}
+
 .seven {
+  border: black solid 1px;
+  box-sizing: border-box;
   flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
 }
+
+div.photo-seven{
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
+}
+
 .eight {
+  border: black solid 1px;
+  box-sizing: border-box;
   flex: 1;
+  margin: 15px;
+  min-width: 20%;
+  z-index: 2;
+}
+
+div.photo-eight{
+  background-image: url(images/IMG_0300.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+
 }
