@@ -1,5 +1,5 @@
 body{
-  background: #dacec0;
+/*  background: #dacec0;*/
   font-family: 'Open Sans', sans-serif;
 }
 header{
@@ -221,11 +221,20 @@ a:hover {
   }
   .box{
     display: flex;
-    -webkit-flex-direction: column;
     flex-direction: column;
     flex-wrap: wrap;
   }
   .each-box{
-    width: 100%;
+    width: 95%;
+  }
+  header{
+    height: 100%;
+  }
+  ul{
+    display: block;
+    margin: 10px;
+  }
+  li{
+    display: block;
   }
 }
